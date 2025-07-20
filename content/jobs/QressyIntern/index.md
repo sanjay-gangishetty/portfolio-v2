@@ -4,7 +4,7 @@ title: 'Software Development Intern'
 company: 'Qressy Solutions Private LTD.'
 location: 'Remote'
 range: 'July 2023 - August 2023'
-url: 'https://qressysolutions.com/'
+url: 'https://qressy.com/'
 ---
 
 - Contributed to PHP backend development to add a new review block to the Checkitin.bio product

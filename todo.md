@@ -34,8 +34,10 @@
 
 ## Removals
 
+- Clearup the folders which are unwanted.
 - Remove `Other Noteworthy Projects` from the repo.
 
 ## Additions
 
+- Update the `readme.md` file.
 - If possible add the github or the codolio heatmap.

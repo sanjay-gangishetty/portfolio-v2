@@ -3,13 +3,21 @@ module.exports = {
 
   socialMedia: [
     {
+      name: 'LeetCode',
+      url: 'https://leetcode.com/u/sanjaykumarg',
+    },
+    {
+      name: 'Codolio',
+      url: 'https://codolio.com/profile/sanjaykumarg/card',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/sanjay-gangishetty',
     },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/sanjay-gangishetty',
-    },
+    }
   ],
 
   navLinks: [

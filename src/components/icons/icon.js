@@ -4,11 +4,13 @@ import {
   IconAppStore,
   IconBookmark,
   IconCodepen,
+  IconCodolio,
   IconExternal,
   IconFolder,
   IconFork,
   IconGitHub,
   IconInstagram,
+  IconLeetCode,
   IconLinkedin,
   IconLoader,
   IconLogo,
@@ -25,6 +27,8 @@ const Icon = ({ name }) => {
       return <IconBookmark />;
     case 'Codepen':
       return <IconCodepen />;
+    case 'Codolio':
+      return <IconCodolio />;
     case 'External':
       return <IconExternal />;
     case 'Folder':
@@ -35,6 +39,8 @@ const Icon = ({ name }) => {
       return <IconGitHub />;
     case 'Instagram':
       return <IconInstagram />;
+    case 'LeetCode':
+      return <IconLeetCode />;
     case 'Linkedin':
       return <IconLinkedin />;
     case 'Loader':

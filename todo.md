@@ -17,7 +17,7 @@
 
 ## 1. About Section
 
-- [ ] Update the whole content of the about section with Image.
+- [x] Update the whole content of the about section with Image.
 - [ ] Also update the skills section.
 
 ## 2. Where I've Worked

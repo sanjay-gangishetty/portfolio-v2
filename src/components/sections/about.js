@@ -148,23 +148,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Sanjay and I'm passionate about building web applications that solve
-              real-world problems. My journey in software development started during my bachelor's
-              degree in Computer Applications, where I discovered my love for creating digital solutions.
+              Hello! I'm Sanjay, a Software Development Engineer passionate about building scalable, distributed systems that solve complex problems.
+            </p>
+            <p>
+              Currently spearheading innovation at <a href="https://qressy.com" target="_blank" rel="noopener noreferrer">Qressy</a>, where I lead cutting-edge e-commerce solutions empowering 2,000+ merchants. I've architected and deployed <a href="https://apps.shopify.com/partners/qressy-solutions-private-limited" target="_blank" rel="noopener noreferrer">14+</a> production applications with hands-on experience across the entire development lifecycle—from conceptualization to deployment—demonstrating strong system design and problem-solving capabilities.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://qressysolutions.com/">innovative SaaS companies</a> and{' '}
-              <a href="https://bizigo.in/">consulting firms</a>. I've successfully developed and
-              launched a jewelry management system serving 600+ active clients, engineered 10+
-              custom Shopify applications, and automated business processes that reduced workload by 90%.
-            </p>
-
-            <p>
-              My main focus these days is building scalable web applications using modern technologies
-              like React, Node.js, and cloud platforms. I have experience with both frontend and
-              backend development, database design, and cloud deployment on AWS.
+              I excel at algorithmic challenges with 550+ DSA problems solved and a <a href="https://leetcode.com/u/sanjaykumarg/" target="_blank" rel="noopener noreferrer">LeetCode </a> Contest Rating of 1552, demonstrating strong problem-solving skills. My development approach emphasizes clean code, SOLID principles, and scalable architecture patterns to ensure maintainable, high-performance systems.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

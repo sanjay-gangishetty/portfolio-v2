@@ -137,7 +137,7 @@ const About = () => {
     'MongoDB',
     'AWS (EC2, S3, Elastic Beanstalk)',
     'Docker',
-    'Prisma'
+    'Prisma',
   ];
 
   return (

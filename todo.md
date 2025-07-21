@@ -34,7 +34,7 @@
 
 ## Socials
 
-- [ ] Add the leetcode and codolio icons.
+- [x] Add the leetcode and codolio icons.
 
 ## Removals
 

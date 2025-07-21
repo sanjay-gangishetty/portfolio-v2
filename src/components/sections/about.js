@@ -128,16 +128,10 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)',
     'Java',
-    'Python',
     'React',
     'Node.js',
-    'Remix',
-    'PHP',
-    'MySQL',
-    'MongoDB',
     'AWS (EC2, S3, Elastic Beanstalk)',
-    'Docker',
-    'Prisma',
+    'MySQL',
   ];
 
   return (

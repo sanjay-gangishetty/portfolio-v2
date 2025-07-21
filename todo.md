@@ -12,8 +12,8 @@
 
 ## Hero section
 
-- [ ] Make the tag line and the sub tag line text more better.
-- [ ] Change the links to view or download the resume.
+- [x] Make the tag line and the sub tag line text more better.
+- [x] Change the links to view or download the resume.
 
 ## 1. About Section
 

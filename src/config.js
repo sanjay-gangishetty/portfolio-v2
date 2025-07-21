@@ -17,7 +17,7 @@ module.exports = {
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/sanjay-gangishetty',
-    }
+    },
   ],
 
   navLinks: [
@@ -28,6 +28,10 @@ module.exports = {
     {
       name: 'Experience',
       url: '/#jobs',
+    },
+    {
+      name: 'Skills',
+      url: '/#skills',
     },
     {
       name: 'Work',

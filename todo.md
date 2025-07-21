@@ -7,7 +7,7 @@
 ## Navbar
 
 - [ ] Change the logo from `B` to `S`.
-- [ ] Change the links to view or download the resume.
+- [x] Change the links to view or download the resume.
 - [ ] Add the `Skills` section link.
 
 ## Hero section

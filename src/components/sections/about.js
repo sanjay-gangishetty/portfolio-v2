@@ -148,7 +148,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Sanjay, a Software Development Engineer passionate about building scalable, distributed systems that solve complex problems.
+              Hello! I'm <a href="https://www.linkedin.com/in/sanjaykumarg/" target="_blank" rel="noopener noreferrer">Sanjay</a>, a Software Development Engineer passionate about building scalable, distributed systems that solve complex problems.
             </p>
             <p>
               Currently spearheading innovation at <a href="https://qressy.com" target="_blank" rel="noopener noreferrer">Qressy</a>, where I lead cutting-edge e-commerce solutions empowering 2,000+ merchants. I've architected and deployed <a href="https://apps.shopify.com/partners/qressy-solutions-private-limited" target="_blank" rel="noopener noreferrer">14+</a> production applications with hands-on experience across the entire development lifecycle—from conceptualization to deployment—demonstrating strong system design and problem-solving capabilities.

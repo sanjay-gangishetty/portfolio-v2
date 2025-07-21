@@ -8,7 +8,7 @@
 
 - [ ] Change the logo from `B` to `S`.
 - [x] Change the links to view or download the resume.
-- [ ] Add the `Skills` section link.
+- [x] Add the `Skills` section link.
 
 ## Hero section
 
@@ -18,7 +18,7 @@
 ## 1. About Section
 
 - [x] Update the whole content of the about section with Image.
-- [ ] Also update the skills section.
+- [x] Also update the skills section.
 
 ## 2. Where I've Worked
 

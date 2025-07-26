@@ -1,7 +1,7 @@
 export { default as IconAppStore } from './appstore';
 export { default as IconBookmark } from './bookmark';
 export { default as IconCodepen } from './codepen';
-export { default as IconCodolio } from './codolio';
+export { default as IconCode } from './code';
 export { default as IconExternal } from './external';
 export { default as IconFolder } from './folder';
 export { default as IconFork } from './fork';

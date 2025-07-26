@@ -7,7 +7,7 @@ module.exports = {
       url: 'https://leetcode.com/u/sanjaykumarg',
     },
     {
-      name: 'Codolio',
+      name: 'Code',
       url: 'https://codolio.com/profile/sanjaykumarg/card',
     },
     {

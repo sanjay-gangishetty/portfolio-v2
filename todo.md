@@ -39,7 +39,7 @@
 ## Removals
 
 - [ ] Clearup the folders which are unwanted.
-- [ ] Remove `Other Noteworthy Projects` from the repo.
+- [x] Remove `Other Noteworthy Projects` from the repo.
 
 ## Additions
 

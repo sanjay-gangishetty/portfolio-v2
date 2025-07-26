@@ -9,6 +9,8 @@ tags:
   - Dark Mode
 ---
 
+<!-- ![Image Alt](./image.jpg) -->
+
 Dark mode toggle without the flash of default theme. Important bits:
 
 - CSS variables for color theming
@@ -38,8 +40,7 @@ Dark mode toggle without the flash of default theme. Important bits:
       <button
         class="theme-toggle-btn js-theme-toggle"
         aria-label="Activate dark mode"
-        title="Activate dark mode"
-      >
+        title="Activate dark mode">
         <!--
         <svg class="light-mode">
           <use xlink:href="#sun"></use>

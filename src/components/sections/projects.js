@@ -196,20 +196,23 @@ const Projects = () => {
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
+  const GRID_LIMIT = 6;
+  const projects = data.projects.edges.filter(({ node }) => node);
+  const firstSix = projects.slice(0, GRID_LIMIT);
+  const projectsToShow = showMore ? projects : firstSix;
+
   useEffect(() => {
     if (prefersReducedMotion) {
       return;
     }
 
     sr.reveal(revealTitle.current, srConfig());
-    sr.reveal(revealArchiveLink.current, srConfig());
+    // Only reveal archive link if it exists (when there are more than 3 projects)
+    if (projects.length > 3 && revealArchiveLink.current) {
+      sr.reveal(revealArchiveLink.current, srConfig());
+    }
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
-
-  const GRID_LIMIT = 6;
-  const projects = data.projects.edges.filter(({ node }) => node);
-  const firstSix = projects.slice(0, GRID_LIMIT);
-  const projectsToShow = showMore ? projects : firstSix;
 
   const projectInner = node => {
     const { frontmatter, html } = node;
@@ -267,9 +270,12 @@ const Projects = () => {
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
+      {/* Only show archive link when there are more than 3 projects */}
+      {projects.length > 3 && (
+        <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
+          view the archive
+        </Link>
+      )}
 
       <ul className="projects-grid">
         {prefersReducedMotion ? (
@@ -302,9 +308,11 @@ const Projects = () => {
         )}
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+      {projects.length > 3 && (
+        <button className="more-button" onClick={() => setShowMore(!showMore)}>
+          Show {showMore ? 'Less' : 'More'}
+        </button>
+      )}
     </StyledProjectsSection>
   );
 };

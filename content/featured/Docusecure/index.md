@@ -4,6 +4,7 @@ title: 'Docusecure'
 cover: './docusecure.png'
 github: 'https://github.com/sanjay-gangishetty/docusecure'
 external: '/'
+cta: 'https://github.com/sanjay-gangishetty/docusecure#readme'
 tech:
   - Node.js
   - Express.js

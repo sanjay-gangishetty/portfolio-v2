@@ -30,7 +30,7 @@
 
 ## 4. What's Next?
 
-- [ ] Update the section by adding mobile and email easily viewable and accessable.
+- [x] Update the section by adding mobile and email easily viewable and accessable.
 
 ## Socials
 

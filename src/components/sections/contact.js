@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { srConfig, email } from '@config';
+import { srConfig, email, mobile } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
@@ -35,9 +35,22 @@ const StyledContactSection = styled.section`
     font-size: clamp(40px, 5vw, 60px);
   }
 
-  .email-link {
+  .contact-actions {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
+  .contact-button {
     ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    min-width: 140px;
   }
 `;
 
@@ -65,9 +78,15 @@ const Contact = () => {
         reach out. I'll try my best to get back to you!
       </p>
 
-      <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
-      </a>
+      {/* Contact Action Buttons */}
+      <div className="contact-actions">
+        <a className="contact-button" href={`mailto:${email}`}>
+          Send Email
+        </a>
+        <a className="contact-button" href={`tel:${mobile}`}>
+          Call Now
+        </a>
+      </div>
     </StyledContactSection>
   );
 };

@@ -22,11 +22,11 @@
 
 ## 2. Where I've Worked
 
-- [ ] Make the job descriptions more great.
+- [x] Make the job descriptions more great.
 
 ## 3. Some Things I've Built
 
-- [ ] Add my 3 major projects, with images.
+- [x] Add my 3 major projects, with images.
 
 ## 4. What's Next?
 

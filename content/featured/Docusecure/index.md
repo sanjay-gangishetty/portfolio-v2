@@ -3,7 +3,7 @@ date: '1'
 title: 'Docusecure'
 cover: './docusecure.png'
 github: 'https://github.com/sanjay-gangishetty/docusecure'
-external: '/'
+external: 'https://github.com/sanjay-gangishetty/'
 cta: 'https://github.com/sanjay-gangishetty/docusecure#readme'
 tech:
   - Node.js

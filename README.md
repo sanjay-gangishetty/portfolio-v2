@@ -2,27 +2,27 @@
 
 A modern, responsive portfolio website built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> showcasing my skills, experience, and projects as a Full Stack Developer.
 
-## 📋 Quick Navigation
+## Quick Navigation
 
-- [🚀 Live Demo](#-live-demo)
-- [✨ Features](#-features)
-- [🛠 Tech Stack](#-tech-stack)
-- [📁 Project Structure](#-project-structure)
-- [🚀 Getting Started](#-getting-started)
-- [📝 Available Scripts](#-available-scripts)
-- [🎨 Customization](#-customization)
-- [🚀 Deployment](#-deployment)
-- [📱 Performance](#-performance)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🙏 Acknowledgments](#-acknowledgments)
-- [📞 Contact](#-contact)
+- [Live Demo](#-live-demo)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Available Scripts](#-available-scripts)
+- [Customization](#-customization)
+- [Deployment](#-deployment)
+- [Performance](#-performance)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
 
-## 🚀 Live Demo
+## Live Demo
 
 Visit my portfolio at: https://sanjay-gangishetty.github.io/portfolio-v2/
 
-## ✨ Features
+## Features
 
 - **Modern Design**: Clean, responsive design with smooth animations
 - **Performance Optimized**: Built with Gatsby for fast loading times
@@ -36,7 +36,7 @@ Visit my portfolio at: https://sanjay-gangishetty.github.io/portfolio-v2/
 - **Skills Visualization**: Interactive skills section
 - **Experience Timeline**: Professional experience with detailed descriptions
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -57,7 +57,7 @@ Visit my portfolio at: https://sanjay-gangishetty.github.io/portfolio-v2/
 
 - **GitHub Pages** - Hosting and deployment
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio-v2/
@@ -80,7 +80,7 @@ portfolio-v2/
 └── gatsby-config.js      # Gatsby configuration
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ portfolio-v2/
 4. **Open your browser**
    Navigate to `http://localhost:8000` to view your portfolio
 
-## 📝 Available Scripts
+## Available Scripts
 
 | Command           | Description                    |
 | ----------------- | ------------------------------ |
@@ -123,7 +123,7 @@ portfolio-v2/
 | `npm run format`  | Format code with Prettier      |
 | `npm run deploy`  | Deploy to GitHub Pages         |
 
-## 🎨 Customization
+## Customization
 
 ### Personal Information
 
@@ -161,7 +161,7 @@ module.exports = {
 - **Typography**: Update fonts in `src/styles/fonts.js`
 - **Global Styles**: Customize styles in `src/styles/GlobalStyle.js`
 
-## 🚀 Deployment
+## Deployment
 
 ### GitHub Pages
 
@@ -169,7 +169,7 @@ module.exports = {
 npm run deploy
 ```
 
-## 📱 Performance
+## Performance
 
 This portfolio is optimized for performance with:
 
@@ -179,23 +179,11 @@ This portfolio is optimized for performance with:
 - **SEO Optimization** - Meta tags and structured data
 - **PWA Features** - Offline support and app-like experience
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Brittany Chiang** - Original design inspiration from [brittanychiang.com](https://brittanychiang.com)
 
-## 📞 Contact
+## Contact
 
 - **Email**: gangishettysanjaykumar@gmail.com
 - **LinkedIn**: [Sanjay Kumar Gangishetty](https://www.linkedin.com/in/sanjay-gangishetty)

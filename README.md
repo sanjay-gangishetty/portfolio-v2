@@ -1,88 +1,209 @@
+# Sanjay Kumar Gangishetty - Portfolio Website
+
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Portfolio Logo" src="src/images/logo.png" width="100" />
 </div>
-<h1 align="center">
-  brittanychiang.com - v4
-</h1>
+
+# Personal Portfolio Website
+
+A modern, responsive portfolio website built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> showcasing my skills, experience, and projects as a Full Stack Developer.
+
 <p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  <a href="https://app.netlify.com/sites/your-site-name/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![Portfolio Demo](src/images/demo.png)
 
-## 🚨 Forking this repo (please read!)
+## 🚀 Live Demo
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+Visit my portfolio at: https://sanjay-gangishetty.github.io/portfolio-v2/
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## ✨ Features
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+- **Modern Design**: Clean, responsive design with smooth animations
+- **Performance Optimized**: Built with Gatsby for fast loading times
+- **SEO Friendly**: Optimized for search engines with proper meta tags
+- **Mobile Responsive**: Works perfectly on all devices
+- **Dark Theme**: Elegant dark color scheme with green accents
+- **Smooth Animations**: Scroll animations and transitions using Framer Motion
+- **Contact Form**: Integrated contact form for easy communication
+- **Project Showcase**: Detailed project pages with GitHub links
+- **Blog Section**: Technical blog posts and insights
+- **Skills Visualization**: Interactive skills section
+- **Experience Timeline**: Professional experience with detailed descriptions
 
-### TL;DR
+## 🛠 Tech Stack
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+### Frontend
 
-## 🛠 Installation & Set Up
+- **Gatsby.js** - Static site generator
+- **React.js** - UI library
+- **Styled Components** - CSS-in-JS styling
+- **Framer Motion** - Animation library
+- **ScrollReveal** - Scroll animations
 
-1. Install the Gatsby CLI
+### Development Tools
 
-   ```sh
-   npm install -g gatsby-cli
+- **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **Husky** - Git hooks
+- **Lint-staged** - Pre-commit hooks
+
+### Deployment
+
+- **GitHub Pages** - Hosting and deployment
+
+## 📁 Project Structure
+
+```
+portfolio-v2/
+├── content/                 # Content files (projects, posts, jobs)
+│   ├── featured/           # Featured projects
+│   ├── jobs/              # Work experience
+│   ├── posts/             # Blog posts
+│   └── projects/          # Project details
+├── src/
+│   ├── components/        # React components
+│   │   ├── icons/        # SVG icons
+│   │   └── sections/     # Page sections
+│   ├── hooks/            # Custom React hooks
+│   ├── images/           # Static images
+│   ├── pages/            # Gatsby pages
+│   ├── styles/           # Global styles and themes
+│   ├── templates/        # Gatsby templates
+│   └── utils/            # Utility functions
+├── static/               # Static assets
+└── gatsby-config.js      # Gatsby configuration
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v16 or higher)
+- **npm** or **yarn** package manager
+- **Git** for version control
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/sanjay-gangishetty/portfolio-v2.git
+   cd portfolio-v2
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+2. **Install dependencies**
 
-   ```sh
-   nvm install
+   ```bash
+   npm install
    ```
 
-3. Install dependencies
+3. **Start the development server**
 
-   ```sh
-   yarn
+   ```bash
+   npm run develop
    ```
 
-4. Start the development server
+4. **Open your browser**
+   Navigate to `http://localhost:8000` to view your portfolio
 
-   ```sh
-   npm start
-   ```
+## 📝 Available Scripts
 
-## 🚀 Building and Running for Production
+| Command           | Description                    |
+| ----------------- | ------------------------------ |
+| `npm run develop` | Start development server       |
+| `npm run build`   | Build for production           |
+| `npm run serve`   | Serve production build locally |
+| `npm run clean`   | Clear Gatsby cache             |
+| `npm run format`  | Format code with Prettier      |
+| `npm run deploy`  | Deploy to GitHub Pages         |
 
-1. Generate a full static production build
+## 🎨 Customization
 
-   ```sh
-   npm run build
-   ```
+### Personal Information
 
-1. Preview the site as it will appear once deployed
+Update your personal information in `src/config.js`:
 
-   ```sh
-   npm run serve
-   ```
+```javascript
+module.exports = {
+  email: 'your-email@example.com',
+  mobile: '+1 234 567 8900',
 
-## 🎨 Color Reference
+  socialMedia: [
+    {
+      name: 'GitHub',
+      url: 'https://github.com/yourusername',
+    },
+    // Add more social links...
+  ],
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
-# portfolio-v2
+  navLinks: [
+    // Customize navigation links...
+  ],
+};
+```
+
+### Content Management
+
+- **Projects**: Add new projects in `content/projects/`
+- **Experience**: Update work experience in `content/jobs/`
+- **Blog Posts**: Create new posts in `content/posts/`
+- **Featured Projects**: Highlight projects in `content/featured/`
+
+### Styling
+
+- **Colors**: Modify color scheme in `src/styles/theme.js`
+- **Typography**: Update fonts in `src/styles/fonts.js`
+- **Global Styles**: Customize styles in `src/styles/GlobalStyle.js`
+
+## 🚀 Deployment
+
+### GitHub Pages
+
+```bash
+npm run deploy
+```
+
+## 📱 Performance
+
+This portfolio is optimized for performance with:
+
+- **Static Site Generation** - Fast loading times
+- **Image Optimization** - Automatic image compression
+- **Code Splitting** - Lazy loading of components
+- **SEO Optimization** - Meta tags and structured data
+- **PWA Features** - Offline support and app-like experience
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Brittany Chiang** - Original design inspiration from [brittanychiang.com](https://brittanychiang.com)
+- **Gatsby Team** - Amazing static site generator
+- **React Community** - Excellent documentation and support
+
+## 📞 Contact
+
+- **Email**: gangishettysanjaykumar@gmail.com
+- **LinkedIn**: [Sanjay Kumar Gangishetty](https://www.linkedin.com/in/sanjay-gangishetty)
+- **GitHub**: [@sanjay-gangishetty](https://github.com/sanjay-gangishetty)
+- **LeetCode**: [sanjaykumarg](https://leetcode.com/u/sanjaykumarg)
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by Sanjay Kumar Gangishetty</sub>
+</div>

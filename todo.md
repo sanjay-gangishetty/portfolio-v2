@@ -14,4 +14,4 @@
 
 ## Deployment
 
-- [ ] Deploy the project.
+- [x] Deploy the project.

@@ -1,7 +1,7 @@
 ---
 date: '2024-02-01'
 title: 'Software Development Engineer'
-company: 'Qressy Solutions Private LTD.'
+company: 'Qressy'
 location: 'Remote'
 range: 'February 2024 - Present'
 url: 'https://qressy.com/'

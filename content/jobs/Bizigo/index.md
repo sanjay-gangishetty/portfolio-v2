@@ -1,7 +1,7 @@
 ---
 date: '2023-09-01'
 title: 'Software Engineering Consultant'
-company: 'Bizigo Private LTD.'
+company: 'Bizigo'
 location: 'Remote'
 range: 'September 2023 - October 2023'
 url: 'https://bizigo.in/'

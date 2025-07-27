@@ -1,7 +1,7 @@
 ---
 date: '2023-07-01'
 title: 'Software Development Intern'
-company: 'Qressy Solutions Private LTD.'
+company: 'Qressy'
 location: 'Remote'
 range: 'July 2023 - August 2023'
 url: 'https://qressy.com/'

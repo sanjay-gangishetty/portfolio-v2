@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/portfolio-v2', // Add pathPrefix for GitHub Pages deployment
   siteMetadata: {
     title: 'Sanjay Kumar Gangishetty',
     description:

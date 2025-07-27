@@ -1,18 +1,6 @@
 # Sanjay Kumar Gangishetty - Portfolio Website
 
-<div align="center">
-  <img alt="Portfolio Logo" src="src/images/logo.png" width="100" />
-</div>
-
-# Personal Portfolio Website
-
 A modern, responsive portfolio website built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> showcasing my skills, experience, and projects as a Full Stack Developer.
-
-<p align="center">
-  <a href="https://app.netlify.com/sites/your-site-name/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status" alt="Netlify Status" />
-  </a>
-</p>
 
 ![Portfolio Demo](src/images/demo.png)
 

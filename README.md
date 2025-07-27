@@ -2,7 +2,21 @@
 
 A modern, responsive portfolio website built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> showcasing my skills, experience, and projects as a Full Stack Developer.
 
-![Portfolio Demo](src/images/demo.png)
+## 📋 Quick Navigation
+
+- [🚀 Live Demo](#-live-demo)
+- [✨ Features](#-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+- [📝 Available Scripts](#-available-scripts)
+- [🎨 Customization](#-customization)
+- [🚀 Deployment](#-deployment)
+- [📱 Performance](#-performance)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📞 Contact](#-contact)
 
 ## 🚀 Live Demo
 
@@ -71,7 +85,7 @@ portfolio-v2/
 ### Prerequisites
 
 - **Node.js** (v16 or higher)
-- **npm** or **yarn** package manager
+- **npm** package manager
 - **Git** for version control
 
 ### Installation
@@ -180,8 +194,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Brittany Chiang** - Original design inspiration from [brittanychiang.com](https://brittanychiang.com)
-- **Gatsby Team** - Amazing static site generator
-- **React Community** - Excellent documentation and support
 
 ## 📞 Contact
 
@@ -189,9 +201,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LinkedIn**: [Sanjay Kumar Gangishetty](https://www.linkedin.com/in/sanjay-gangishetty)
 - **GitHub**: [@sanjay-gangishetty](https://github.com/sanjay-gangishetty)
 - **LeetCode**: [sanjaykumarg](https://leetcode.com/u/sanjaykumarg)
-
----
-
-<div align="center">
-  <sub>Built with ❤️ by Sanjay Kumar Gangishetty</sub>
-</div>

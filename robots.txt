@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sanjaygangishetty.com/portfolio-v2/sitemap-index.xml
+Host: https://sanjaygangishetty.com

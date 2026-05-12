@@ -3,7 +3,7 @@ date: '2'
 title: 'Comergent Content Agent'
 cover: './content-agent.png'
 # github: 'https://github.com/sanjay-gangishetty/comergent-content-agent'
-external: 'https://comergentai.com/'
+external: 'https://comergent.ai/'
 cta: ''
 tech:
   - Python

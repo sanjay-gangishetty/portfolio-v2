@@ -3,7 +3,7 @@ date: '1'
 title: 'Comergent Batch Orchestrator'
 cover: './batch-orchestrator.jpeg'
 # github: 'https://github.com/sanjay-gangishetty/10xgeo-batch-orchestrator'
-external: 'https://comergentai.com/'
+external: 'https://comergent.ai/'
 cta: ''
 tech:
   - Node.js

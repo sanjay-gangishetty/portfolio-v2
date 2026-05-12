@@ -4,7 +4,7 @@ title: 'Founding Engineer'
 company: 'Comergent AI'
 location: 'Hyderabad, India'
 range: 'December 2025 - Present'
-url: 'https://comergentai.com/'
+url: 'https://comergent.ai/'
 ---
 
 - Reduced AI batch API calls by 73% by replacing naive polling with self-scheduling EventBridge rules using exponential backoff (2ⁿ mins, capped at 120), with provider-agnostic abstraction supporting Claude, OpenAI, and Gemini batch APIs

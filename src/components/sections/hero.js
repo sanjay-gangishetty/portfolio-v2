@@ -69,7 +69,7 @@ const Hero = () => {
     <>
       <p>
         I'm a Backend &amp; AI Engineer and Founding Engineer at{' '}
-        <a href="https://comergentai.com" target="_blank" rel="noreferrer">
+        <a href="https://comergent.ai" target="_blank" rel="noreferrer">
           Comergent AI
         </a>
         , an{' '}

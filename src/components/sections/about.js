@@ -155,7 +155,7 @@ const About = () => {
 
             <p>
               I'm currently the Founding Engineer at{' '}
-              <a href="https://comergentai.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://comergent.ai" target="_blank" rel="noopener noreferrer">
                 Comergent AI
               </a>
               , an{' '}

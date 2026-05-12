@@ -3,9 +3,9 @@ const config = require('./src/config');
 module.exports = {
   pathPrefix: '/portfolio-v2', // Add pathPrefix for GitHub Pages deployment
   siteMetadata: {
-    title: 'Sanjay Kumar Gangishetty',
+    title: 'Sanjay Gangishetty',
     description:
-      'Sanjay Kumar Gangishetty is a full stack software development engineer who specializes in building exceptional web applications and SaaS solutions.',
+      'Sanjay Gangishetty is a Backend & AI Engineer specializing in LLM orchestration, agentic systems, and scalable backend infrastructure. Founding Engineer at Antler-backed Comergent AI.',
     siteUrl: 'https://sanjaygangishetty.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@sanjay_gangishetty',

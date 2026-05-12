@@ -8,6 +8,10 @@ module.exports = {
       url: 'https://leetcode.com/u/sanjaykumarg',
     },
     {
+      name: 'npm',
+      url: 'https://www.npmjs.com/package/@qressy/qressy-meta-ads-mcp',
+    },
+    {
       name: 'Code',
       url: 'https://codolio.com/profile/sanjaykumarg/card',
     },

@@ -23,7 +23,7 @@ const StyledSkillsSection = styled.section`
 
 const StyledSkillCategory = styled.div`
   padding: 20px 0;
-  
+
   .category-header {
     display: flex;
     align-items: center;
@@ -42,6 +42,28 @@ const StyledSkillCategory = styled.div`
       font-size: var(--fz-md);
     }
   }
+
+  .skill-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .skill-pill {
+    background: var(--light-navy);
+    color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: var(--fz-xs);
+    font-family: var(--font-mono);
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 `;
 
 const Skills = () => {
@@ -52,34 +74,69 @@ const Skills = () => {
     if (prefersReducedMotion) {
       return;
     }
-
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
   const skillCategories = [
     {
-      title: 'Frontend',
-      badge: 'https://skillicons.dev/icons?i=html,css,js,react,vite,remix,jquery,bootstrap,tailwindcss&perline=6',
+      title: 'AI & LLM',
+      pills: [
+        'LangGraph',
+        'Anthropic Claude SDK',
+        'OpenAI SDK',
+        'Google Gemini',
+        'MCP (Model Context Protocol)',
+        'Pinecone',
+        'Tavily',
+        'Pydantic',
+        'Structured Outputs',
+      ],
     },
     {
       title: 'Backend',
-      badge: 'https://skillicons.dev/icons?i=nodejs,express,php,flask,py,graphql&perline=6',
+      pills: [
+        'Node.js',
+        'TypeScript',
+        'Python',
+        'Express.js',
+        'FastAPI',
+        'REST APIs',
+        'Webhooks',
+        'Prisma ORM',
+        'Raw SQL',
+      ],
     },
     {
-      title: 'Programming Languages',
-      badge: 'https://skillicons.dev/icons?i=js,py,java,c,cpp,php&perline=6',
+      title: 'AWS & DevOps',
+      pills: [
+        'AWS Lambda',
+        'EventBridge Scheduler',
+        'ECR',
+        'S3',
+        'CloudWatch',
+        'IAM',
+        'Docker',
+        'GitHub Actions',
+      ],
     },
     {
       title: 'Databases',
-      badge: 'https://skillicons.dev/icons?i=mysql,mongodb,sqlite,prisma&perline=6',
+      pills: ['MySQL', 'MongoDB', 'Redis', 'Bull Queue'],
     },
     {
-      title: 'Cloud & DevOps',
-      badge: 'https://skillicons.dev/icons?i=aws,docker,linux,git,github,githubactions,cloudflare,prometheus,grafana&perline=6',
+      title: 'Shopify',
+      pills: [
+        'Remix',
+        'Polaris',
+        'GraphQL Admin API',
+        'Storefront API',
+        'Bulk Operations API',
+        'Webhooks',
+      ],
     },
     {
-      title: 'Development Environment',
-      badge: 'https://skillicons.dev/icons?i=vscode,eclipse,sublime,vim,bash,postman,ubuntu,md&perline=6',
+      title: 'Languages',
+      pills: ['JavaScript', 'TypeScript', 'Python', 'Java'],
     },
   ];
 
@@ -93,19 +150,12 @@ const Skills = () => {
             <div className="category-header">
               <h3>{category.title}</h3>
             </div>
-            <div>
-              <a
-                href="https://skillicons.dev"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${category.title} skills`}
-              >
-                <img
-                  src={category.badge}
-                  alt={`${category.title} skills`}
-                  loading="lazy"
-                />
-              </a>
+            <div className="skill-pills">
+              {category.pills.map((pill, i) => (
+                <span key={i} className="skill-pill">
+                  {pill}
+                </span>
+              ))}
             </div>
           </StyledSkillCategory>
         ))}
@@ -114,4 +164,4 @@ const Skills = () => {
   );
 };
 
-export default Skills; 
+export default Skills;

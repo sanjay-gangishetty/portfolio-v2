@@ -2,12 +2,10 @@
 date: '2023-07-01'
 title: 'Software Development Intern'
 company: 'Qressy'
-location: 'Remote'
+location: 'Hyderabad, India'
 range: 'July 2023 - August 2023'
 url: 'https://qressy.com/'
 ---
 
-- Contributed to PHP backend development to add a new review block to the Checkitin.bio product
-- Implemented user review submission functionality for products and services
-- Collaborated with senior developers to enhance existing codebase and improve user experience
-- Gained hands-on experience with full-stack web development using modern technologies
+- Built PHP backend review system for Checkintin.bio; processed 300+ submissions in the first month
+- Collaborated with senior engineers to ship production features across the existing codebase

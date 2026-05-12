@@ -60,32 +60,32 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Sanjay Kumar</h2>;
-  const three = <h3 className="big-heading">I build scalable web apps.</h3>;
+
+  const two = <h2 className="big-heading">Sanjay</h2>;
+
+  const three = <h3 className="big-heading">I build AI-powered backend systems.</h3>;
+
   const four = (
     <>
-      {/* <p>
-        I'm a full-stack software engineer with a proven track record of transforming ideas into scalable SaaS solutions. Over the past year, I've architected and deployed 14+ Shopify applications, with 8+ live on the App Store, each scaled from zero to 100+ users.
-        Currently spearheading innovation at{' '}
-        <a href="https://qressy.com" target="_blank" rel="noreferrer">
-          Qressy
-        </a>
-        , where I lead cutting-edge e-commerce solutions empowering 1,000+ merchants. My expertise spans the entire development lifecycle—from conceptualization to deployment—creating robust applications that solve complex business challenges in digital commerce.
-      </p> */}
       <p>
-        Software development engineer building scalable SaaS products. Led 14+ Shopify apps, 8+ live on the App Store. Currently driving e-commerce innovation at {' '}
-        <a href="https://qressy.com" target="_blank" rel="noreferrer">Qressy</a>
-        , supporting 1,000+ merchants.
+        I'm a Backend &amp; AI Engineer and Founding Engineer at{' '}
+        <a href="https://comergentai.com" target="_blank" rel="noreferrer">
+          Comergent AI
+        </a>
+        , an{' '}
+        <a href="https://www.antler.co" target="_blank" rel="noreferrer">
+          Antler
+        </a>
+        -backed pre-seed startup. I specialise in LLM orchestration, agentic systems, and
+        event-driven backend infrastructure &mdash; currently building the engine that helps Shopify
+        merchants get discovered by ChatGPT, Claude, and Perplexity.
       </p>
     </>
   );
+
   const five = (
-    <a
-      className="email-link"
-      href="GangishettySanjayKumar.pdf"
-      target="_blank"
-      rel="noreferrer">
-      Download Resume
+    <a className="email-link" href="/GangishettySanjayKumar.pdf" target="_blank" rel="noreferrer">
+      View Resume
     </a>
   );
 

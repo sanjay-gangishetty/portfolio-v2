@@ -121,17 +121,16 @@ const About = () => {
     if (prefersReducedMotion) {
       return;
     }
-
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
-    'Java',
-    'React',
-    'Node.js',
-    'AWS (EC2, S3, Elastic Beanstalk)',
-    'MySQL',
+    'LangGraph & LLM Agents',
+    'Node.js & TypeScript',
+    'Python & FastAPI',
+    'AWS Lambda & EventBridge',
+    'MCP (Model Context Protocol)',
+    'MySQL, Redis & MongoDB',
   ];
 
   return (
@@ -142,14 +141,46 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm <a href="https://www.linkedin.com/in/sanjaykumarg/" target="_blank" rel="noopener noreferrer">Sanjay</a>, a Software Development Engineer passionate about building scalable, distributed systems that solve complex problems.
-            </p>
-            <p>
-              Currently spearheading innovation at <a href="https://qressy.com" target="_blank" rel="noopener noreferrer">Qressy</a>, where I lead cutting-edge e-commerce solutions empowering 2,000+ merchants. I've architected and deployed <a href="https://apps.shopify.com/partners/qressy-solutions-private-limited" target="_blank" rel="noopener noreferrer">14+</a> production applications with hands-on experience across the entire development lifecycle—from conceptualization to deployment—demonstrating strong system design and problem-solving capabilities.
+              Hi, I'm{' '}
+              <a
+                href="https://www.linkedin.com/in/sanjay-gangishetty"
+                target="_blank"
+                rel="noopener noreferrer">
+                Sanjay
+              </a>
+              , a Backend & AI Engineer based in Hyderabad. I build the infrastructure that makes
+              LLM-powered products work at scale — orchestration agents, event-driven batch systems,
+              and multi-provider AI pipelines.
             </p>
 
             <p>
-              I excel at algorithmic challenges with 550+ DSA problems solved and a <a href="https://leetcode.com/u/sanjaykumarg/" target="_blank" rel="noopener noreferrer">LeetCode </a> Contest Rating of 1552, demonstrating strong problem-solving skills. My development approach emphasizes clean code, SOLID principles, and scalable architecture patterns to ensure maintainable, high-performance systems.
+              I'm currently the Founding Engineer at{' '}
+              <a href="https://comergentai.com" target="_blank" rel="noopener noreferrer">
+                Comergent AI
+              </a>
+              , an{' '}
+              <a href="https://www.antler.co" target="_blank" rel="noopener noreferrer">
+                Antler
+              </a>
+              -backed pre-seed startup building GEO/AEO infrastructure for Shopify merchants. I
+              architected the entire backend from scratch — from a LangGraph multi-provider content
+              agent running across 100+ stores concurrently, to an event-driven batch orchestrator
+              that cut AI API calls by 73%.
+            </p>
+
+            <p>
+              Before that, I led the product engineering division at{' '}
+              <a href="https://qressy.com" target="_blank" rel="noopener noreferrer">
+                Qressy
+              </a>
+              , shipping 12+ production Shopify apps serving 600+ active merchants. I also hold a{' '}
+              <a
+                href="https://leetcode.com/u/sanjaykumarg/"
+                target="_blank"
+                rel="noopener noreferrer">
+                LeetCode rating of 1552
+              </a>{' '}
+              (top 35% globally) and have 2,772 GitHub contributions in the last year.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

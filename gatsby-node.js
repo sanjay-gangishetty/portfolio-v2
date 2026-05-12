@@ -7,6 +7,21 @@
 const path = require('path');
 const _ = require('lodash');
 
+/**
+ * Explicitly type frontmatter fields used across featured/projects markdown files.
+ * This prevents Gatsby from incorrectly inferring `cover` as a String when an
+ * image file is missing, and ensures `cta` is always available as an optional String.
+ */
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      cover: File @fileByRelativePath
+      cta: String
+    }
+  `);
+};
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);

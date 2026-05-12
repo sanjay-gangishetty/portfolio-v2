@@ -67,13 +67,11 @@ const StyledCredit = styled.div`
   }
 `;
 
-const Footer = () => {
-
-  return (
-    <StyledFooter>
-      <StyledSocialLinks>
-        <ul>
-          {socialMedia &&
+const Footer = () => (
+  <StyledFooter>
+    <StyledSocialLinks>
+      <ul>
+        {socialMedia &&
             socialMedia.map(({ name, url }, i) => (
               <li key={i}>
                 <a href={url} aria-label={name}>
@@ -81,17 +79,16 @@ const Footer = () => {
                 </a>
               </li>
             ))}
-        </ul>
-      </StyledSocialLinks>
+      </ul>
+    </StyledSocialLinks>
 
-      <StyledCredit tabindex="-1">
-        <a href="https://github.com/sanjay-gangishetty">
-          <div>© 2025 Sanjay Kumar. All rights reserved.</div>
-        </a>
-      </StyledCredit>
-    </StyledFooter>
-  );
-};
+    <StyledCredit tabindex="-1">
+      <a href="https://github.com/sanjay-gangishetty">
+        <div>© 2026 Sanjay Gangishetty. All rights reserved.</div>
+      </a>
+    </StyledCredit>
+  </StyledFooter>
+);
 
 Footer.propTypes = {
   githubInfo: PropTypes.object,
